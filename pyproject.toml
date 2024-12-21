@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_fishspeech_ex"
+description = "This plugin is optimized for Fish-Speech-1.5 version and is only applicable to version 1.5"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["hydra-core", "loguru", "lightning", "loralib", "ormsgpack", "pyrootutils", "baize", "kui", "funasr", "onnxconverter_common", "silero_vad", "natsort", "vector-quantize-pytorch==1.14.24"]
+
+[project.urls]
+Repository = "https://github.com/BIMer-99/ComfyUI_FishSpeech_EX"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_FishSpeech_EX"
+Icon = ""
